@@ -122,6 +122,8 @@ let anonymous_block_prefix = "objc_block_"
 
 let buck_out = "buck-out"
 
+let common_initializers = [ 0xFFFF; 0xFFFFFFFF ]
+
 let buck_out_gen = buck_out ^/ "gen"
 
 let buck_results_dir_name = "infer"
